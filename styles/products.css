@@ -1,0 +1,85 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.prod-items {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+.products-title {
+  font-family: "Inter-700";
+  font-size: 36px;
+  color: rgba(30, 29, 29, 1);
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.products-sup-title {
+  text-align: center;
+  font-family: "Inter-500";
+  font-size: 16px;
+  color: rgba(56, 88, 214, 1);
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.prod-item {
+  height: 440px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  display: grid;
+  overflow: hidden;
+}
+.prod-img {
+  width: 100%;
+  background: rgba(246, 246, 246, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prod-items-info * {
+  text-align: center;
+}
+.prod-items-info {
+  display: grid;
+  margin-top: 11px;
+  justify-content: center;
+}
+.old-price {
+  font-family: "Poppins-500";
+  font-size: 20px;
+  color: rgba(139, 142, 153, 1);
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.new-price {
+  font-family: "Poppins-600";
+  font-size: 24px;
+  color: rgba(0, 0, 0, 1);
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.view-more {
+  position: relative;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 196px;
+  height: 46px;
+  background: rgba(56, 88, 214, 1);
+  border: none;
+  border-radius: 5px;
+
+  font-family: "Poppins-600";
+  font-size: 18px;
+  color: white;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+.header {
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+}
+
+.header-container {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 27px;
+}
+.nav-list li a {
+  font-family: "Poppins-500";
+  font-size: 16px;
+  color: rgba(139, 142, 153, 1);
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header-btns {
+  display: flex;
+  gap: 15px;
+}
+.header-btns button {
+  border: none;
+  background: transparent;
+}

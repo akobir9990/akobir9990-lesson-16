@@ -1,0 +1,38 @@
+.home-items .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 73px 0;
+}
+
+.items {
+  width: 354px;
+  height: 239px;
+  border-radius: 22px;
+  background: rgba(246, 246, 246, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 45px 25px 45px 41px;
+}
+.items h1 {
+  font-family: "Inter-700";
+  font-size: 36px;
+  color: rgba(30, 29, 29, 1);
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 9px;
+}
+.items p {
+  width: 173px;
+  height: 76px;
+
+  font-family: "Inter-500";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(139, 142, 153, 1);
+}

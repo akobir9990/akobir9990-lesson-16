@@ -1,0 +1,76 @@
+.home-container {
+  display: flex;
+  padding: 154px 0 145px 0;
+  justify-content: space-between;
+}
+.home-title,
+.home-subtitle {
+  color: white;
+}
+
+.home-title {
+  width: 457px;
+  height: 275px;
+
+  font-family: "Poppins-700";
+  font-size: 64px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 80px;
+}
+.home-subtitle {
+  width: 456px;
+  height: 83px;
+  color: rgba(139, 142, 153, 1);
+  font-family: "Poppins-500";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.home-container .input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 443px;
+  height: 60px;
+  top: 613px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset -2px -2px 10px rgb(0, 0, 0);
+  gap: 16px;
+}
+.input {
+  padding: 0 19px 0 19px;
+  margin-top: 46px;
+}
+.input input::placeholder {
+  color: rgba(139, 142, 153, 0.7);
+}
+
+.input input:focus {
+  outline: none;
+}
+.input input {
+  width: 100%;
+  border: none;
+  font-family: "Poppins-500";
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input button {
+  width: 112px;
+  height: 45px;
+  background: rgba(56, 88, 214, 1);
+  border: none;
+  border-radius: 10px;
+  color: white;
+
+  font-family: "Poppins-600";
+  font-size: 18px;
+
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
